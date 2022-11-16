@@ -1,60 +1,122 @@
-#itens{
-    margin: 13%;
-    border-style: solid;
-    border-width: 1px;
-    border-color: gainsboro;
-    border-radius: 7px;
-    padding: 40px;
-    margin-left: 250px;
-    margin-right: 250px;
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
 }
-#esqueci{
-    color: rgb(47, 47, 255);
-    font-family: "roboto","Noto Sans Myanmar UI",arial,sans-serif;    
-    text-decoration: none;
+
+.body {
+    overflow-x: hidden;
+    position: relative;
+    top: -100px;
 }
-#caixa{
-    max-width: 350px;
+
+.superior {
+    position: relative;
+    left: 45%;
+    right: 0;
+    top: 200px;
+    padding: 0;
+}
+
+.logo-google {
+    width: 100px;
+    padding: 0;
+}
+
+.txtFazerLogin {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 15px;
+    right: 20px;
+    font-size: 30px;
+
+}
+
+.txtIrGmail {
+    position: relative;
+    top: 28px;
+    right: 14px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #525552b7;
+}
+
+.Frm {
+    position: relative;
+    top: 300px;
+    left: 33%;
+}
+
+.Input {
+    width: 32%;
     height: 45px;
     border-radius: 5px;
-    border-width: 1px;
-    min-width: 100px;
-    
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px;
+    border-color: #0384fc;
+    outline: none;
 }
-#imagemtop{
-    width: 100px;   
-}
-#frases{
-    font-family: "roboto","Noto Sans Myanmar UI",arial,sans-serif;
-}
-#login{
-    font-size: 30px;
-    font-family: "roboto","Noto Sans Myanmar UI",arial,sans-serif;
-}
-#create{
-    font-family: "roboto","Noto Sans Myanmar UI",arial,sans-serif;
+
+.txtEsqueci {
+    position: relative;
+    top: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0384fc;
+    font-weight: bold;
     text-decoration: none;
-    text-align: left;
 }
-#go{
-    background-color: rgb(33, 33, 252);
-    border-style: none;
-    border-radius: 3px;
-    width: 70px;
-    height: 30px;
-    margin-left: 70px;
-    max
+
+#txtAbaixo {
+    position: relative;
+    text-decoration: none;
+    top: 300px;
+    left: 448px;
+    color: #525552b7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
 }
-#goinside{
+
+a:visited {
+    text-decoration: none;
+}
+
+.txtSaiba {
+    position: relative;
+    top: 260.7px;
+    left: 650.5px;
+    text-decoration: none;
+    color: #0384fc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.txtCriar {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0384fc;
+    top: 320px;
+    left: 450px;
+}
+
+.btn {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 320px;
+    left: 50%;
     color: white;
+    width: 100px;
+    height: 35px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #0384fc;
+    border-radius: 4px;
 }
-#nope{
-    text-align: left;
-    font-family: "roboto","Noto Sans Myanmar UI",arial,sans-serif;
-}
-#sei{
-    text-decoration: none;
-}
-#inicio{
-    text-align: center;
+
+.inferior {
+    display: flex;
+    align-items: center;
 }
