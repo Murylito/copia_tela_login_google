@@ -1,31 +1,38 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="Pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Tela de Login</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <div id="itens">
-        <div id="inicio">
-            <img src="google.svg" id="imagemtop">
 
-            <P id="login">Fazer Login</P>
-            <p id="frases">Use sua Conta do Google</p>
-        </div>
-        <input type="email" type="number" placeholder="E-mail ou telefone" id="caixa">
-        <br></br>
-        <a href="google.com" id="esqueci"><b>Esqueceu seu e-mail?</b></a>
-        <br></br>
-        <div id="nope">
-            <p>Não está no seu computador? Use uma janela de navegação privada para fazer login.<a href="google.com" id="sei">Saiba mais</a></p>
-        </div>
-        <a href="google.com" id="create"><b>Criar conta</b></a>
-        <button id="go">
-            <b id="goinside">Avançar</b>
-        </button>
+<body class="body">
+    <div class="superior">
+        <img class="logo-google" src="/google.svg" alt="Logo Google">
+        <p class="txtFazerLogin">Fazer login</p>
+        <p class="txtIrGmail">Ir para o Gmail</p>
     </div>
-    </body>
+
+    <div class="Frm">
+        <input class="Input" type="email" type="tel" placeholder="E-mail ou Telefone"><br>
+        <a class="txtEsqueci" href="https://support.google.com/mail/answer/8494?hl=pt-BR&co=GENIE.Platform%3DAndroid"
+            target="_blank">Esqueceu seu
+            e-mail?</a>
+    </div>
+
+    <br><br>
+    <p id="txtAbaixo">
+        Não está no seu computador? Use o modo visitante para <br> fazer login com privacidade.</p>
+    <br>
+    <a class="txtSaiba" href="https://support.google.com/mail/answer/8494?hl=pt-BR&co=GENIE.Platform%3DAndroid"
+        target="_blank">Saiba mais</a>
+    <div class="inferior">
+        <h3 class="txtCriar">Criar conta</h3>
+        <button class="btn">Próxima</button>
+    </div>
+</body>
+
 </html>
